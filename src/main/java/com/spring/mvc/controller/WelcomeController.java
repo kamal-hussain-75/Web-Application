@@ -27,6 +27,11 @@ public class WelcomeController {
 		return "success";
 	}
 
+	@GetMapping("/test")
+	public String test() {
+		System.out.println("WelcomeController.test()");
+		return "test";
+	}
 
 
 }
