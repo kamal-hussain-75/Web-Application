@@ -7,8 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-  <h1>Welcome to test JSP file</h1>
-   
+    <h1>This is foot Wear page</h1>
 </body>
 </html>

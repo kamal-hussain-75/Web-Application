@@ -7,8 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-  <h1>Welcome ! This is your profile  Mr. ${id}</h1>
-
+    <h1>This is electronics page</h1>
 </body>
 </html>

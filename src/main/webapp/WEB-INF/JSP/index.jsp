@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body bgcolor="pink">
-         <h2>Welcome to my first Dynamic project</h2>
+<body>
+       <h1>Home page Default</h1>
 </body>
 </html>
