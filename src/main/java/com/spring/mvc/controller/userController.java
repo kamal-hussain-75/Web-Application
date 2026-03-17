@@ -1,7 +1,5 @@
 package com.spring.mvc.controller;
 
-
-
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.spring.mvc.model.Employee;
 
 @Controller
-public class userController {
+public class UserController {  
 	
 	@GetMapping("/")
 	public String welcome()
@@ -47,8 +45,8 @@ public class userController {
 	@PostMapping("/createUser")
 	public String createUser(@ModelAttribute Employee employee)
 	{
-		System.out.println(employee); 
+		System.out.println(employee);
 		return "index";
 	}
 
-} 
+}
