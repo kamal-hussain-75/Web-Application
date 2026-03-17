@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.spring.mvc.model.Employee;
 
 @Controller
-public class UserController {  
+public class userController {
 	
 	@GetMapping("/")
 	public String welcome()
